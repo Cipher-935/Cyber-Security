@@ -1,5 +1,0 @@
-I have made this algorith such that it can trace and decrypt the real time https requests between the host and the open internet. It is designed so that it can help in dynamic analysis of malware communications to its C2. My algorithm has the ability
-to detect and decode base64, hex, XOR and other encryption methods. It can also try and detect stegnography. All the logs are written to  a text file with timestamps that help investigators to narrow down and see the event
-of activities.
-
-The algorithm uses mitmproxy and the custom certificate to decrypt the traffic using python. It is still in progress, so I am trying to add more features to it. 
